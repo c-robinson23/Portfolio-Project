@@ -1,0 +1,18 @@
+/* font-family: 'Poppins', sans-serif;  extralight: 200, regular 400*/
+
+body {
+  background-color: purple;
+  color: aquamarine;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+.gicon {
+  font-size: 50px;
+}
