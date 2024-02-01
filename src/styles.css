@@ -1,13 +1,20 @@
 /* font-family: 'Poppins', sans-serif;  extralight: 200, regular 400
 font-family: 'Petit Formal Script', cursive; */
 
+:root {
+  --branding-color: aquamarine;
+  --branding-seondary-color: rgba(127, 255, 212, 0.766);
+  --heading-font-family: "Petit Formal Script", cursive;
+  --default-font-family: "Poppins", sans-serif;
+}
+
 body {
-  background-color: white;
-  color: aquamarine;
+  font-family: var(--default-font-family);
+  color: var(--branding-color);
 }
 
 h1 {
-  font-family: "Petit Formal Script", cursive;
+  font-family: var(--heading-font-family);
   font-weight: 400;
   font-size: 96px;
 }
@@ -16,7 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--default-font-family);
   font-weight: regular;
 }
 
@@ -26,7 +33,7 @@ h6 {
   padding: 160px 20px;
 }
 .hero p {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--default-font-family);
   font-size: 36px;
   margin: 0;
 }
@@ -37,11 +44,11 @@ h6 {
 .hero h2 {
   font-size: 24px;
   line-height: 2;
-  color: rgba(127, 255, 212, 0.766);
+  color: var(--branding-seondary-color);
 }
 
 .btn-branding {
-  background-color: aquamarine;
+  background-color: var(--branding-color);
   border-radius: 4px;
   color: white;
   font-size: 18px;
