@@ -22,7 +22,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+footer {
   font-family: var(--default-font-family);
   font-weight: regular;
 }
@@ -46,9 +47,6 @@ p {
   color: var(--branding-color);
   font-size: 36px;
   margin: 0;
-}
-.gicon {
-  font-size: 50px;
 }
 
 .hero h2 {
@@ -83,6 +81,15 @@ p {
 .featured-projects {
   font-size: 50px;
   font-family: var(--heading-font-family);
+}
+.footer {
+  font-size: 25px;
+  padding: 20px;
+  line-height: 1.5;
+}
+
+.icons {
+  font-size: 30px;
 }
 
 @media (max-width: 900px) {
