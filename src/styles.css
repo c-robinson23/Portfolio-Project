@@ -48,7 +48,7 @@ h6 {
 }
 
 .btn-branding {
-  background-color: var(--branding-color);
+  background-color: var(--branding-seondary-color);
   border-radius: 4px;
   color: white;
   font-size: 18px;
