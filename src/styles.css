@@ -68,9 +68,9 @@ p {
   border: 4px solid var(--branding-seondary-color);
   color: var(--branding-seondary-color);
   border-radius: 4px;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 27px;
-  padding: 15px 30px;
+  padding: 10px 20px;
 }
 
 .project-description {
