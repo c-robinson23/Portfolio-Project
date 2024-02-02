@@ -96,7 +96,8 @@ p {
   padding: 160px 20px;
 }
 .content h1 {
-  font-size: 64px;
+  text-align: center;
+  font-size: 55px;
   line-height: 80px;
 }
 .content h2 {
@@ -165,5 +166,17 @@ p {
   }
   .footer-email {
     font-size: 20px;
+  }
+  .content-container {
+    padding: 0;
+    margin: 0;
+  }
+  .content h1 {
+    font-size: 35px;
+    line-height: 1.2;
+    padding-top: 20px;
+  }
+  .content p {
+    color: var(--branding-seondary-color);
   }
 }
