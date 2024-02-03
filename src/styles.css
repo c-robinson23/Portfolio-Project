@@ -210,6 +210,6 @@ nav li.active a {
     color: var(--branding-seondary-color);
   }
   nav a {
-    font-size: 18px;
+    font-size: 14px;
   }
 }
