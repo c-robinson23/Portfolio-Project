@@ -83,15 +83,25 @@ p {
   font-family: var(--heading-font-family);
 }
 .footer {
-  font-size: 25px;
+  font-size: 30px;
   padding: 40px;
   line-height: 1.5;
   background-color: black;
+}
+.footer-email {
+  text-decoration: none;
+  color: var(--branding-seondary-color);
+  line-height: 3;
 }
 
 .icons {
   font-size: 30px;
 }
+
+.icons a {
+  color: var(--branding-color);
+}
+
 .content-container {
   padding: 160px 20px;
   text-align: center;
