@@ -75,6 +75,11 @@ p {
   padding: 10px 20px;
 }
 
+.btn-about {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
 .project-description {
   padding: 20px 30px;
   margin-bottom: 40px;
@@ -116,6 +121,9 @@ p {
   transition: all 50ms ease-in-out;
 }
 
+.footer p {
+  color: var(--branding-seondary-color);
+}
 .icons {
   font-size: 30px;
 }
