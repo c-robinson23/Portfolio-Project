@@ -76,6 +76,7 @@ p {
 }
 
 .btn-about {
+  border: 1px solid black;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
 }
@@ -137,7 +138,7 @@ p {
 }
 
 .content-container {
-  padding: 100px 20px;
+  padding: 40px 20px;
   text-align: center;
 }
 .content h1 {
@@ -246,6 +247,7 @@ nav li.active a {
     background-color: black;
     text-align: center;
     padding: 0;
+    margin: 0;
   }
   .content-section h1 {
     font-size: 50px;
@@ -273,5 +275,8 @@ nav li.active a {
   }
   .logo {
     width: 40px;
+  }
+  .work-container {
+    padding: 0;
   }
 }
