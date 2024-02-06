@@ -207,7 +207,13 @@ nav li.active a {
 }
 
 @media (max-width: 900px) {
+  html,
   body {
+    overflow-x: hidden;
+  }
+
+  body {
+    position: relative;
     background-color: var(--branding-seondary-color);
   }
 
