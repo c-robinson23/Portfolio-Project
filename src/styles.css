@@ -2,8 +2,8 @@
 font-family: 'Petit Formal Script', cursive; */
 
 :root {
-  --branding-color: aquamarine;
-  --branding-seondary-color: rgba(127, 255, 212, 0.766);
+  --branding-color: rgb(168, 140, 245);
+  --branding-seondary-color: rgba(226, 196, 255, 0.913);
   --heading-font-family: "Petit Formal Script", cursive;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -26,8 +26,6 @@ h6,
 footer {
   font-family: var(--default-font-family);
   font-weight: regular;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-    1px 1px 0 #000;
 }
 h2 {
   font-size: 60px;
@@ -60,7 +58,7 @@ p {
 .btn-branding {
   background-color: var(--branding-seondary-color);
   border-radius: 4px;
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 22px;
   line-height: 27px;
   padding: 15px 30px;
@@ -77,8 +75,6 @@ p {
 
 .btn-about {
   border: 1px solid black;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-    1px 1px 0 #000;
 }
 
 .project-description {
@@ -145,8 +141,6 @@ p {
   text-align: center;
   font-size: 55px;
   line-height: 80px;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-    1px 1px 0 #000;
 }
 .content h2 {
   font-size: 25px;
@@ -174,8 +168,6 @@ p {
 
 .contact-content-container h1,
 h3 {
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-    1px 1px 0 #000;
 }
 
 nav {
