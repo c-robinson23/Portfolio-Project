@@ -3,7 +3,7 @@ font-family: 'Petit Formal Script', cursive; */
 
 :root {
   --branding-color: rgb(168, 140, 245);
-  --branding-seondary-color: rgba(226, 196, 255, 0.913);
+  --branding-secondary-color: rgba(226, 196, 255, 0.913);
   --heading-font-family: "Petit Formal Script", cursive;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -11,6 +11,11 @@ font-family: 'Petit Formal Script', cursive; */
   margin: 80px auto;
 }
 body {
+  background-image: url("/images/clrsqr.png");
+  background-size: 50% 50%;
+  background-position: center;
+  background-repeat: repeat;
+  position: relative;
   font-family: var(--default-font-family);
   color: var(--branding-color);
 }
@@ -18,7 +23,7 @@ body {
 h1 {
   font-family: var(--heading-font-family);
   font-weight: 400;
-  font-size: 48px;
+  font-size: 35px;
 }
 h2,
 h3,
@@ -32,18 +37,24 @@ footer {
 h2 {
   font-size: 30px;
 }
+
 p {
   font-weight: normal;
-  font-size: 10px;
+  font-size: 14px;
   line-height: 30px;
   color: black;
 }
 
 .hero {
-  background-color: black;
+  background-color: #dbdfed9c;
+  border: 1px solid white;
+  border-radius: 4px;
   text-align: center;
-  padding: 30px 120px;
+  padding: 40px;
+  margin-left: 96px;
+  margin-right: 96px;
 }
+
 .hero p {
   font-family: var(--default-font-family);
   color: var(--branding-color);
@@ -52,22 +63,22 @@ p {
 }
 
 .hero h2 {
-  font-size: 12px;
+  font-size: 18px;
   line-height: 2;
-  color: var(--branding-seondary-color);
+  color: var(--branding-color);
 }
 
 .btn-branding {
-  background-color: var(--branding-seondary-color);
+  background-color: var(--branding-secondary-color);
   border-radius: 4px;
   color: rgb(0, 0, 0);
-  font-size: 17px;
+  font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
 }
 
 .btn-branding-outline {
-  border: 4px solid var(--branding-seondary-color);
+  border: 4px solid var(--branding-secondary-color);
   color: black;
   border-radius: 4px;
   font-size: 20px;
@@ -90,7 +101,6 @@ p {
 }
 
 .contact-box {
-  background-color: black;
   padding: 30px 120px;
 }
 
@@ -104,14 +114,17 @@ p {
 }
 
 .footer {
-  font-size: 15px;
-  padding: 40px;
+  font-size: 18px;
+  padding: 20px;
   line-height: 1.5;
-  background-color: black;
+  background-color: #dbdfed9c;
+  border: 1px solid white;
+  border-radius: 4px;
+  margin: auto;
 }
 .footer-email {
   text-decoration: none;
-  color: var(--branding-seondary-color);
+  color: var(--branding-color);
   line-height: 3;
 }
 
@@ -121,10 +134,10 @@ p {
 }
 
 .footer p {
-  color: var(--branding-seondary-color);
+  color: var(--branding-color);
 }
 .icons {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .icons a {
@@ -168,6 +181,10 @@ p {
   padding: 60px 20px;
 }
 
+.inquiry {
+  font-family: var(--heading-font-family);
+}
+
 nav {
   padding: 20px 0;
 }
@@ -177,7 +194,7 @@ nav ul {
 }
 
 nav li {
-  font-size: 25px;
+  font-size: 12.5px;
   display: inline;
   list-style: none;
   line-height: 50px;
@@ -192,25 +209,20 @@ nav a {
 
 nav a:hover,
 nav li.active a {
-  color: var(--branding-seondary-color);
-  text-shadow: 1px 1px 2px black;
+  color: var(--branding-secondary-color);
+  text-shadow: 1px 1px 1px black;
+  font-size: 13.5px;
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 900px) and (min-width: 600px) {
   html,
   body {
     overflow-x: hidden;
   }
 
-  body {
-    position: relative;
-    background-color: white;
-  }
-
   .project-description {
     padding-top: 20px;
     text-align: center;
-    background-color: black;
   }
   h1 {
     font-size: 25px;
@@ -232,15 +244,13 @@ nav li.active a {
   }
 
   p {
-    color: var(--branding-seondary-color);
-    background-color: black;
+    color: var(--branding-secondary-color);
   }
 
   .featured-projects {
     font-size: 13.5px;
   }
   .content {
-    background-color: black;
     text-align: center;
     padding: 0;
     margin: 0;
@@ -261,7 +271,7 @@ nav li.active a {
     padding-top: 20px;
   }
   .content p {
-    color: var(--branding-seondary-color);
+    color: var(--branding-secondary-color);
   }
   nav a {
     font-size: 14px;
