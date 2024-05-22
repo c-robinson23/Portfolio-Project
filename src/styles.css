@@ -9,6 +9,7 @@ font-family: 'Petit Formal Script', cursive; */
 }
 .container-fluid {
   margin: 80px auto;
+  min-width: 1209px;
 }
 body {
   background-image: url("/images/clrsqr.png");
@@ -178,6 +179,10 @@ p {
   padding: 30px 10px;
 }
 
+.aboutimgbutton {
+  max-width: 1397px;
+}
+
 .inquiry {
   font-family: var(--heading-font-family);
   font-size: 35px;
@@ -221,10 +226,17 @@ nav li.active a {
   font-size: 13.5px;
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 430px) {
   html,
   body {
     overflow-x: hidden;
+  }
+  body {
+    background-image: url("/images/clrsqr.png");
+    background-size: 50% 50%;
+    background-position: center;
+    background-repeat: repeat;
+    position: relative;
   }
   .hero,
   .footer {
@@ -232,6 +244,7 @@ nav li.active a {
     margin-left: 25px;
     margin-right: 25px;
   }
+
   .project-description {
     padding-top: 20px;
     text-align: center;
@@ -248,11 +261,11 @@ nav li.active a {
   }
 
   h2 {
-    font-size: 30px;
+    font-size: 21px;
   }
 
   .hero h2 {
-    font-size: 7.5px;
+    font-size: 15px;
   }
 
   p {
@@ -260,7 +273,7 @@ nav li.active a {
   }
 
   .featured-projects {
-    font-size: 20px;
+    font-size: 21px;
   }
   .content {
     text-align: center;
@@ -271,7 +284,12 @@ nav li.active a {
     font-size: 25px;
   }
   a.footer-email {
-    font-size: 8.5px;
+    font-size: 13px;
+  }
+
+  .footer,
+  .my-5 {
+    margin-top: 24px !important;
   }
   .content-container {
     padding: 0;
