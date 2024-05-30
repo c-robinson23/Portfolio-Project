@@ -13,10 +13,10 @@ font-family: 'Petit Formal Script', cursive; */
 }
 body {
   background-image: url("/images/clrsqr.png");
-  background-size: 50% 50%;
+  background-size: 100%;
   background-position: center;
-  background-repeat: repeat;
-  position: relative;
+
+  position: static;
   font-family: var(--default-font-family);
   color: var(--branding-color);
 }
@@ -238,10 +238,9 @@ nav li.active a {
   }
   body {
     background-image: url("/images/clrsqr.png");
-    background-size: 50% 50%;
+    background-size: 100%;
     background-position: center;
-    background-repeat: repeat;
-    position: relative;
+    position: static;
   }
   .hero,
   .footer {
