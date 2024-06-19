@@ -4,6 +4,7 @@ font-family: 'Petit Formal Script', cursive; */
 :root {
   --branding-color: rgb(168, 140, 245);
   --branding-secondary-color: rgba(226, 196, 255, 0.913);
+  --branding-third-color: rgba(149, 126, 172, 0.913);
   --heading-font-family: "Petit Formal Script", cursive;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -305,10 +306,13 @@ nav li.active a {
     padding-top: 20px;
   }
   .content p {
-    color: var(--branding-secondary-color);
+    color: var(--branding-third-color);
   }
   nav a {
     font-size: 14px;
+  }
+  .btn-branding {
+    font-size: 15px;
   }
   .btn-branding-outline {
     color: var(--branding-color);
